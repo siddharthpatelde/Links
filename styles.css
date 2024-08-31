@@ -1,0 +1,166 @@
+:root {
+    --mainColor: #eaeaea;
+    --secondaryColor: #fff;
+
+    --borderColor: #c1c1c1;
+
+    --mainText: black;
+    --secondaryText: #4b5156;
+
+    --themeDotBorder: #24292e;
+
+    --previewBg: rgb(251, 249, 243, 0.8);
+    --previewShadow: #f0ead6;
+
+    --buttonColor: black;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+    color: var(--secondaryText);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid var(--borderColor);
+    background-color: var(--secondaryColor);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    color: var(--mainText);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.about h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.link-section {
+    margin-bottom: 40px;
+}
+
+.link-section img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
+.link-section p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.link-section a {
+    font-size: 16px;
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+.link-section a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: var(--buttonColor);
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 2px 0 #888, 1px 4px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: sans-serif;
+    font-size: .85em;
+    font-weight: 300;
+    outline: none;
+    padding: 1em 2em;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Theme personalization styles */
+.left-column {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#profile_pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#theme-options-wrapper {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.theme-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid var(--themeDotBorder);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#light-mode {
+    background-color: #f5f5f5;
+}
+
+#blue-mode {
+    background-color: #1e3a8a;
+}
+
+#green-mode {
+    background-color: #6b8e23;
+}
+
+#purple-mode {
+    background-color: #8a2be2;
+}
+
+#settings-note {
+    font-size: 14px;
+    color: var(--secondaryText);
+    margin-top: 10px;
+    line-height: 1.5;
+}
