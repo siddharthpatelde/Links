@@ -1,5 +1,5 @@
 body {
-    background-color: #6f42c1;
+    background-color: #4a27a4;
     color: white;
     font-family: Arial, sans-serif;
 }
@@ -24,12 +24,12 @@ h1, h2, h3 {
 }
 
 .link-section a {
-    color: #ffc107;
+    color: white;
     text-decoration: none;
 }
 
 .link-section button {
-    background-color: #ffc107;
+    background-color: white;
     color: #6f42c1;
     border: none;
     padding: 10px 20px;

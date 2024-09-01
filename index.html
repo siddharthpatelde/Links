@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Links</title>
+    <title>Portfolio</title>
     <link id="theme-style" rel="stylesheet" href="default.css"> <!-- Link to theme-style -->
+    <link id="theme-style" rel="stylesheet" href="styles.css"> <!-- Link to theme-style -->
 </head>
 <body>
     <div class="container">
-        <h1>SIDDHARTH PATEL - Electrical Engineering<br>Bachelor at HTW Berlin</h1>
-        <h2>Siddharth Patel</h2>
+        <div class="header">
 
+            <div class="img-column">
+                <img id="profile_pic" src="profile.png">
+            </div>
+            
+            <div class="text-column">
+                <h1>SIDDHARTH <em>PATEL</em></h1>
+                <h2>Electrical Engineering<br>Bachelor at HTW Berlin</h2>
+            </div>
+
+        </div>
+        
         <div class="left-column">
-            <img id="profile_pic" src="profile.png">
             <h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
 
             <div id="theme-options-wrapper">
@@ -26,28 +36,29 @@
         </div>
 
         <div class="about">
-            <h3>About:</h3>
             <p>
-                Welcome to my portfolio website! Here, you can explore a selection of my personal projects and learn about my professional experience in electrical engineering. Whether you’re interested in my latest projects or want to know more about my background, you’ll find it all here.
+                Welcome to my portfolio website! Here, you can explore the selection of my personal projects and learn about my professional experience in electrical engineering. Whether you’re interested in my latest projects or want to know more about my background, you’ll find it all here.
             </p>
         </div>
 
         <div class="link-section">
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://siddharthpatelde.github.io/Portfolio/" alt="QR Code for Portfolio">
-            <p>Visit my portfolio:</p>
-            <p><button id="openPortfolioButton">Open Portfolio</button></p>
-        </div>
-
-        <div class="link-section">
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://siddharthpatelde.github.io/Portfolio/images/CV%20-%20Siddharth%20Patel.pdf" alt="QR Code for CV">
-            <p>Visit my CV:</p>
-            <p><button id="downloadCVButton">Download CV</button></p>
-        </div>
-
-        <div class="link-section">
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://siddharthpatelde.github.io/Portfolio/contact.html" alt="QR Code for Contact Page">
-            <p>Contact page:</p>
-            <p><button id="contactMeButton">Contact Me</button></p>
+            <div class="portfolio">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://siddharthpatelde.github.io/Portfolio/" alt="QR Code for Portfolio">
+                <!-- <p>Visit my portfolio:</p> -->
+                <p><button id="openPortfolioButton">Open Portfolio</button></p>
+            </div>
+    
+            <div class="cv">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://siddharthpatelde.github.io/Portfolio/images/CV%20-%20Siddharth%20Patel.pdf" alt="QR Code for CV">
+                <!-- <p>Visit my CV:</p> -->
+                <p><button id="downloadCVButton">Download CV</button></p>
+            </div>
+    
+            <div class="contact">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://siddharthpatelde.github.io/Portfolio/contact.html" alt="QR Code for Contact Page">
+                <!-- <p>Contact page:</p> -->
+                <p><button id="contactMeButton">Contact Me</button></p>
+            </div>
         </div>
     </div>
 

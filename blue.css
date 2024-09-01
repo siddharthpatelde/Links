@@ -1,7 +1,6 @@
 body {
-    background-color: #007bff;
+    background-color: #005ab9;
     color: white;
-    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -19,17 +18,17 @@ body {
     border: 3px solid white;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h5 {
     color: white;
 }
 
 .link-section a {
-    color: #ffc107;
+    color: white;
     text-decoration: none;
 }
 
 .link-section button {
-    background-color: #ffc107;
+    background-color: white;
     color: #007bff;
     border: none;
     padding: 10px 20px;
