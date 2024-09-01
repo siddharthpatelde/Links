@@ -1,7 +1,6 @@
 body {
     background-color: #fefefe;
     color: black;
-    font-family: Arial, sans-serif;
 }
 
 .container {
@@ -9,6 +8,8 @@ body {
     margin: auto;
     padding: 20px;
     text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 #profile_pic {
@@ -20,6 +21,7 @@ body {
 
 h1, h2, h3 {
     color: #333;
+    font-weight: 500;
 }
 
 .link-section a {
@@ -50,7 +52,14 @@ h1, h2, h3 {
     border: 2px solid black;
 }
 
+.theme-dot:hover {
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+	transform: scale(1.2);
+    border: 2px solid rgb(0, 0, 0);
+}
+
 #light-mode { background-color: white; }
-#blue-mode { background-color: #007bff; }
-#green-mode { background-color: #28a745; }
-#purple-mode { background-color: #6f42c1; }
+#blue-mode { background-color: #192734; }
+#green-mode { background-color: #78866b; }
+#purple-mode { background-color: #46344E; }

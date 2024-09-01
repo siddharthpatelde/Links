@@ -17,30 +17,11 @@
 
 body {
     font-family: 'Roboto Mono', monospace;
-    margin: 0;
-    padding: 50px 0;
     text-align: center;
-}
-
-.header {
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-evenly;
-}
-
-.text-column {
-    display: flex;
-    flex-direction: column;
-}
-
-.image-column img {
-    max-width: 100%;
-    height: auto;
 }
 
 .container {
     max-width: 800px;
-    margin: 0 auto;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -84,17 +65,9 @@ p {
     margin-bottom: 30px;
 }
 
-.link-section {
-    margin-bottom: 50px;
-    margin-top: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
 .link-section img {
     width: 150px;
     height: 150px;
-    margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: -1px 1px 3px -1px rgba(0, 0, 0, 0.75);
 }
@@ -102,7 +75,7 @@ p {
 .link-section p {
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 50px;
 }
 
 .link-section a {
@@ -164,24 +137,56 @@ button:hover {
     transition: all 0.3s ease-in-out;
 }
 
+.theme-dot:hover {
+	text-decoration: none;
+	transition: all .2s ease-in-out;
+	transform: scale(1.2);
+    /* border: 2px solid white; */
+}
+
 #light-mode {
     background-color: #f5f5f5;
 }
 
 #blue-mode {
-    background-color: #1e3a8a;
+    background-color: #15202B;
 }
 
 #green-mode {
-    background-color: #225c29;
+    background-color: #606B56;
 }
 
 #purple-mode {
-    background-color: #451482;
+    background-color: #46344E;
 }
 
 #settings-note {
     font-size: 14px;
     margin-top: 10px;
     line-height: 1.5;
+}
+
+@media all and (min-width: 600px) {
+    .header {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+    }
+    
+    .text-column {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image-column img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .link-section {
+        margin-bottom: 50px;
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
